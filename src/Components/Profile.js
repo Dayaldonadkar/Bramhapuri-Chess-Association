@@ -15,15 +15,15 @@ const Profile = () => {
           />
 
           <p className="text-lg">
-            THE ORISSA STATE CHESS ASSOCIATION is a society formed in the year
-            1959 and registered under Societies Registration Act , through the
-            efforts of Sri K.C. Mitra. He became its founder secretary and Sri
-            V. Ramanathan, I.A.S., its first president with an elected executive
-            body. It was registered in the year 1964-65 and since then it has
-            been conducting chess tournaments regularly keeping in mind to
-            promote chess from the grass-root level. Besides organizing chess
+            THE BRAMHAPRI TALUKA CHESS ASSOCIATION is a society formed in the
+            year 1959 and registered under Societies Registration Act , through
+            the efforts of Sri K.C. Mitra. He became its founder secretary and
+            Sri V. Ramanathan, I.A.S., its first president with an elected
+            executive body. It was registered in the year 1964-65 and since then
+            it has been conducting chess tournaments regularly keeping in mind
+            to promote chess from the grass-root level. Besides organizing chess
             tournaments the association is giving free chess coaching. Some of
-            the were trained under us. The Chess revolution in Orissa started
+            the were trained under us. The Chess revolution in BRAMHAPRI started
             when ‘The Telegraph’, the Calcutta-based leading English daily of
             eastern India introduced the Bhubaneswar leg of “The Telegraph
             Schools’ Chess Championship” in 2001 due to the efforts of then
