@@ -1,20 +1,21 @@
 import React from "react";
+import Footer from "./Footer";
 
 const Profile = () => {
   return (
     <div className="flex flex-col items-center py-10">
-      <div className="flex justify-start w-2/4 bg-gray-700 py-1 text-lg text-white">
-        <h1 className="">Organisation Profile</h1>
+      <div className="flex justify-start w-4/6 bg-gray-700 py-1 text-lg text-white">
+        <h1 className="px-5 py-2">Organisation Profile</h1>
       </div>
-      <div className="flex justify-center py-10">
-        <div className="w-2/4">
-          <img
-            className="float-left pr-10"
-            src="http://orissachessassociation.com/upload/Untitled-1.jpg"
-            alt=""
-          />
-
-          <p className="text-lg">
+      <div className="flex justify-center">
+        <div className="w-4/6 pt-5">
+          <div className="flex justify-center">
+            <h1 className="text-3xl font-medium space-x-3">
+              <span>About</span>
+              <span className="text-blue-400">Us</span>
+            </h1>
+          </div>
+          <p className="text-base font-light py-10 leading-6 px-10">
             THE BRAMHAPRI TALUKA CHESS ASSOCIATION is a society formed in the
             year 1959 and registered under Societies Registration Act , through
             the efforts of Sri K.C. Mitra. He became its founder secretary and
@@ -40,39 +41,6 @@ const Profile = () => {
           </p>
         </div>
       </div>
-      <footer className="flex w-2/4 justify-between">
-        <div>
-          <div>
-            <h1>Navigation</h1>
-          </div>
-          <div>
-            <p>About Us</p>
-            <p>Acheivers</p>
-            <p>Latest News</p>
-            <p>Upcoming Events</p>
-            <p>Downloads</p>
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <h1>Important Links</h1>
-          </div>
-
-          <div>
-            <p>World Chess Organisation</p>
-            <p>Asian Chess federation</p>
-            <p>All India chess federation</p>
-            <p>Sports Autority of India</p>
-          </div>
-        </div>
-
-        <div>
-          <h1>Reach Us</h1>
-          <p>Office:</p>
-          <p>Vikrant Book depot Renuka mata chowk Bramhapuri</p>
-        </div>
-      </footer>
     </div>
   );
 };
